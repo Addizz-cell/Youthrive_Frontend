@@ -1,0 +1,14 @@
+.text{
+    background: black;
+    padding: 10px ;
+    margin-bottom: 20px;
+}
+.text a {
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+
+}
+.text a:hover {
+    border: solid 1px;
+    border-radius: 2px;
