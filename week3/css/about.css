@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    margin: 0 auto;
+    /*border: solid 1px gray;*/
+    font-size: 1rem;
+}
+h1 {
+    text-align: center;
+
+}
+p{
+    padding: 10px 5px;
+    font-size: 1.2rem;
+}

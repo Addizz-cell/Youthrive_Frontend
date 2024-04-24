@@ -1,0 +1,20 @@
+@media (min-width: 500px) {
+    h1 {
+        color: red;
+
+    }
+    main h1{
+        font-size: 3rem;
+    }
+
+    img {
+        width: 24.25%;
+    }
+    #topNav1{
+        display: flex;
+    }
+    #topNav1 a{
+        flex: auto;
+    }
+
+}

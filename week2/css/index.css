@@ -1,0 +1,20 @@
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+.link{
+    color: green;
+}
+
+.linkcont  {
+
+background: rgba(200, 214, 214, 0.527);
+padding: 10px;
+border-left: solid 2px green;
+
+}

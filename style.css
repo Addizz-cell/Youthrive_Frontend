@@ -1,0 +1,36 @@
+h1 {
+    color: brown;
+}
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+nav a:hover {
+    border: solid 1px aliceblue;
+}
+header{
+    text-decoration: none;
+    border: solid 1px;
+    background: black;
+}
+header a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.body1 {
+    border-top: solid 1px rebeccapurple;
+    border-bottom: solid 1px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.firsth1 {
+    color: black;
+}

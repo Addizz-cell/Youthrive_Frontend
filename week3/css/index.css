@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    margin: 0 auto;
+    /*border: solid 1px gray;*/
+}
+
+.gallery {
+    max-width: 97%;
+    margin: auto;
+    text-align: center;
+}
+.gallery img{
+    max-width: 100%;
+    min-height: 3em;
+    margin: 1rem auto;
+}
+body {
+    font-size: 1em;
+}
+h1{
+    font-size: 4rem;
+    text-align: center;
+}
