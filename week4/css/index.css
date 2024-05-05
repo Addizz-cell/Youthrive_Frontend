@@ -1,0 +1,432 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 120rem;
+    font-size: 1rem;
+}
+
+.section1 {
+    max-width: 120rem;
+    height: 95vh;
+    border: solid 1px red;
+    background-color: #D7D7D7;    
+    background-image: url(../images/picture.png), url(../images/RectangleRotate.png);
+    background-repeat: no-repeat;
+    background-position: bottom right , right;
+    background-size: 42.8125rem 28.4375rem , 65% 100%;
+
+}
+
+.section1 ul{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    list-style-type: none;
+    /* border: 1px solid pink; */
+    
+    
+}
+.section1 nav{
+    margin-top: 4.5rem;
+    padding-left: 10vw;
+}
+.section1 .navs{
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+    padding-right: 7rem;
+    gap: 2rem;
+    
+}
+.section1 .navs a{
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    max-width: 9.1875rem;
+    height: 2.875rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    
+}
+.section1 .navs .contactMe{
+    text-wrap: nowrap;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: #fff;
+    border-radius: 1.875rem;
+    border: 4px solid #FFF;
+    padding: 0 1.5vw; 
+
+}
+
+/* Text section for the Desktop home page */
+.section1 .intro .text-desktop {
+    padding-left: 10vw;
+    margin-top: 9.31rem;
+}
+.section1 .intro .text-desktop .line1{
+    width: 10.625rem;
+height: 2.5rem;
+flex-shrink: 0;
+color: #000;
+/* text-align: center; */
+font-family: Raleway;
+font-size: 1.5625rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.text-desktop .line2 {
+width: 33.25rem;
+height: 3.5625rem;
+flex-shrink: 0;
+color: #000;
+
+/* text-align: center; */
+font-family: Raleway;
+font-size: 3.0rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border: 1px solid white;
+} 
+.section1 .intro .text-desktop .line3 {
+    width: 26.625rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    color: #909090;
+    
+    
+    font-family: Raleway;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.socialDesktop {
+    display: flex;
+    width: 11.5rem;
+    flex-shrink: 0;
+    justify-content: space-between;
+}
+.socialDesktop a{
+    background: #C4C4C4;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 5px 5px 0 5px;
+}
+
+.section1 .intro .desktopintro {
+    display: block;
+}
+.section1 .logoMobile {
+    display: none;
+}
+.section1 .menu {
+    display: none;
+}
+.intro .mobileintro{
+    display: none;
+}
+.section1 .menuDropdown{
+    display: none;
+}
+
+
+/* SECTION 2 CSS */
+.section2 {
+    background-image: url(../images/section2\ background.png);
+    max-width: 120rem;
+    height: 19.5625vh;
+    flex-shrink: 0;
+    color: white;
+    
+    border: 1px solid red;
+}
+.sec2text{
+    padding: 3.8rem 41.6rem 3.12rem 6.37rem;
+}
+.section2 .line1 {
+    width: 22.6875rem;
+    height: 3.9375rem;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.34756rem;
+}
+.section2 .line2 {
+    width: 71.75rem;
+    height: 5.5625rem;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: justify;
+    font-family: "Open Sans";
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.682%; /* 1.30013rem */
+}
+.section2 .line3 {
+    width: 18.6875rem;
+    height: 1.5625rem;
+    flex-shrink: 0;
+    color: #FFF;
+    /* text-align: center; */
+    font-family: Montserrat;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-wrap: nowrap;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    padding: 8.69px;
+    text-decoration: none;
+}
+
+
+/* Desktop screen view*/
+@media (max-width: 1055px)  {
+    .section1 {
+        background-image: unset;
+    }
+    .section1 .navs a{
+        color: #000;
+    }
+    .section1 .intro .mobileintro {
+        display: none;
+    }
+    .section1 .intro .desktopintro {
+        display: grid;
+        padding-top: 19.25vh;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+
+/* Mobile screen view*/
+@media (max-width: 740px)  {
+    .section1 {
+        background-image: url(../images/mobilebackground.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        
+    }
+
+    /* the navigations section  */
+    .section1 nav {
+        background-color: #000;
+        height: 3.5625rem;
+        margin-top: unset;
+        padding-left: 1.88rem;
+        /* padding-right: 10vw; */
+        
+        
+    }
+    .section1 .navs a{
+        display: none;
+    }
+    .section1 .logoMobile {
+        display: flex;
+        
+        
+        
+        
+    }
+    .section1 .logoDesktop {
+        display: none;
+
+    }
+    .section1 .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* border: 1px solid rgb(151, 182, 66); */
+    }
+    .section1 ul{
+        height: inherit;
+        padding-right: 1.25rem;
+        border: 1px solid rgb(151, 182, 66);
+    }
+    
+    /* dropdown sections  */
+    .section1 .menuDropdown {
+        display: flex;
+        width: 1.9375rem;
+        height: 1.10938rem;
+        
+        flex-shrink: 0;
+        margin-top: 1.16rem;
+    }
+    .dropdown-content {
+        display: none;
+        position: fixed;
+        left: 0rem;
+        top: 3.7rem;
+        background-color: rgba(0, 0, 0, 0.40);;
+        width: 100%;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+    .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        font-family: Montserrat;
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+      
+    .dropdown-content a:hover {
+        background-color: #ddd;
+
+    }
+      
+    .menuDropdown:hover .dropdown-content {
+        display: block;
+    }
+      
+    .dropbtn:hover {
+        display: none;
+        background-image: url(../images/x.png);
+    }
+
+
+    /* intro section for mobile */
+.section1 .intro .text-desktop {
+    display: none;
+}
+.section1 .intro .mobileintro {
+    display: grid;
+    padding-top: 19.25vh;
+    align-items: center;
+    justify-content: center;
+
+}
+.section1 .intro .mobileintro .line1 {
+
+    display: flex;
+    width: 28.5625rem;
+    height: 2.5625rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    color: #FFF;
+
+    text-align: center;
+    font-family: "Advent Pro";
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.section1 .intro .mobileintro .line2 {
+    width: 28.4375rem;
+    height: 2.4375rem;
+    flex-shrink: 0;
+    color: #FFF;
+
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.section1 .intro .mobileintro .line3 {
+    display: block;
+    width: 7.5rem;
+    height: 0.625rem;
+    flex-shrink: 0;
+    margin: 0 auto;
+    margin-top: 0.87rem;
+    margin-bottom: 1.25rem;
+}
+
+.section1 .intro .mobileintro .socialMobile {
+    display: flex;
+    width: 11.5rem;
+    height: 0.625rem;
+    flex-shrink: 0;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    
+}
+
+
+/* SECTION 2 MOBILE  */
+
+.section2{
+    
+    background-size: 100%;
+    height: 34.1875rem;
+    padding: unset;
+
+}
+.section2 .sec2text{
+    display: g
+    
+    
+}
+.section2 .line1 {
+    display: flex;
+    width: 17.8125rem;
+    height: 3.9375rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.28963rem;
+}
+.section2 .line2 {
+    width: 17.75rem;
+    height: 17.1875rem;
+    flex-shrink: 0;
+    color: #FFF;
+
+    text-align: justify;
+    font-family: "Open Sans";
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.682%;
+}
+
+
+
+
+
+
+
+}
+
+
