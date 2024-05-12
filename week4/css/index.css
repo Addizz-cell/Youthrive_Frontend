@@ -9,7 +9,7 @@
 .section1 {
     max-width: 120rem;
     height: 95vh;
-    border: solid 1px red;
+    border: solid 1px;
     background-color: #D7D7D7;    
     background-image: url(../images/picture.png), url(../images/RectangleRotate.png);
     background-repeat: no-repeat;
@@ -101,7 +101,7 @@ font-size: 3.0rem;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-border: 1px solid white;
+/* border: 1px solid white; */
 } 
 .section1 .intro .text-desktop .line3 {
     width: 26.625rem;
@@ -149,11 +149,11 @@ border: 1px solid white;
 .section2 {
     background-image: url(../images/section2\ background.png);
     max-width: 120rem;
-    height: 19.5625vh;
+    height: 19.5625rem;
     flex-shrink: 0;
     color: white;
     
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .sec2text{
     padding: 3.8rem 41.6rem 3.12rem 6.37rem;
@@ -199,6 +199,350 @@ border: 1px solid white;
     padding: 8.69px;
     text-decoration: none;
 }
+
+.section2 .line3m{
+    display: none;
+}
+
+.about {
+    max-width: 120rem;
+    border: 1px solid red;
+    height: 188.5625rem;
+    flex-shrink: 0;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(26, 21, 21, 0.00) 0%, rgba(1, 1, 1, 0.16) 100%), #FFF;
+}
+
+.firstdiv {
+    display: flex;
+    flex-direction: column;
+}
+.firstdiv .line1{
+    width: 25.25rem;
+    border: 8px solid #000;
+    display: flex;
+    width: 25.25rem;
+    height: 6.625rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 127.9%; /* 2.39813rem */
+    letter-spacing: 0.66631rem;
+    margin: 0 auto;
+    margin-top: 9.88rem;
+}
+.firstdiv .line2 {
+    display: flex;
+    width: 47.6875rem;
+    height: 2.9375rem;
+    flex-shrink: 0;
+    color: #050505;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.682%; /* 1.30013rem */
+    margin: 0 auto;
+    margin-top: 5.5rem;
+    margin-bottom: 4.63rem;
+}
+.firstdiv .line2m{
+    display: none;
+}
+.firstdiv .line3 {
+    width: 8.6875rem;
+    height: 1.5625rem;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    margin: 0 auto;
+    /* margin-top: 4.63rem; */
+    border-left:2px solid black ;
+    border-right:2px solid black ;
+}
+.firstdiv .line4{
+    width: 10.625rem;
+    height: 0.75rem;
+    flex-shrink: 0;
+    margin: 0 auto;
+    margin-top: 5.31rem;
+    margin-bottom: 6.77rem;
+}
+
+.seconddiv {
+    width: 66.625rem;
+    height: 23.3125rem;
+    flex-shrink: 0;
+    /* display: flex; */
+    /* align-items: center; */
+    margin: 0 auto;
+    border: 1px solid ;
+}
+.design {
+    width: 45%;
+    float: left;
+}
+.design .line1{
+    display: flex;
+    width: 17.3125rem;
+    height: 4.625rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.25488rem;
+    background-image: url(../images/designlogo.png);
+    background-repeat: no-repeat;
+    background-position: 2.9rem;
+    /* border: 1px solid red; */
+}
+.design .line2{
+    width: 26.9375rem;
+    height: 6.5rem;
+    flex-shrink: 0;
+    color: #000;
+
+    text-align: justify;
+    font-family: "Open Sans";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 5.31rem;
+}
+.development{
+    width: 45%; 
+    float: right;
+}
+.development .line1{
+    display: flex;
+    width: 17.3125rem;
+    height: 4.625rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.25488rem;
+    background-image: url(../images/developementlogo.png);
+    background-repeat: no-repeat;
+    /* border: 1px solid red; */
+}
+.development .line2{
+    width: 26.9375rem;
+    height: 6.5rem;
+    flex-shrink: 0;
+    color: #000;
+
+    text-align: justify;
+    font-family: "Open Sans";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 1.9rem;
+}
+.maintenance {
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+.maintenance .line1{
+    display: flex;
+    width: 17.3125rem;
+    height: 4.625rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.25488rem;
+    background-image: url(../images/maintenancelogo.png);
+    background-repeat: no-repeat;
+    
+}
+.maintenance .line2{
+    width: 26.375rem;
+    height: 6.5rem;
+    flex-shrink: 0;
+    color: #000;
+
+    text-align: justify;
+    font-family: "Open Sans";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 2rem;
+}
+
+.thirddiv .line1{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 3.81rem;
+}
+.thirddiv .line2{
+    display: flex;
+    width: 21.25rem;
+    height: 5.625rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 127.9%; /* 2.39813rem */
+    letter-spacing: 0.66631rem;
+border: 8px solid;
+    margin: 0 auto;
+    margin-top: 6.25rem;;
+
+}
+
+
+.fourthdiv {
+    width: 62.75rem;
+    height: 88.3125rem;
+    flex-shrink: 0;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 4.94rem;
+
+}
+.fourthdiv .headline1{
+    display: flex;
+    width: 16.3125rem;
+    height: 4.625rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+
+    font-family: Montserrat;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.34756rem;
+    }
+.images-container {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    margin-top: 4.69rem;
+  }
+  .image {
+    width: 25%; /* Each image takes up 25% of the container width for 4 images per row */
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0.5rem 0 0.5rem 0;
+  }
+  .image p {
+    display: flex;
+width: 15rem;
+height: 3.25rem;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #000;
+
+text-align: center;
+font-family: Montserrat;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.20306rem;
+  }
+
+.fourthdiv .headline2 {
+    display: flex;
+width: 16.3125rem;
+height: 4.625rem;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #000;
+margin-top: 6.90rem;
+
+font-family: Montserrat;
+font-size: 1.875rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.34756rem;
+}
+.images-container2{
+    display: flex ;
+    margin-top: 5.06rem;
+
+}
+.fourthdiv .headline3{
+    display: flex;
+width: 21.8125rem;
+height: 4.625rem;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #000;
+margin-top: 5.63rem;
+font-family: Montserrat;
+font-size: 1.875rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.34756rem;
+}
+.images-container3{
+    display: flex;
+    margin-top: 5.13rem;
+}
+.fourthdivm{
+    display: none;
+}
+
+
+
+
 
 
 /* Desktop screen view*/
@@ -264,7 +608,7 @@ border: 1px solid white;
     .section1 ul{
         height: inherit;
         padding-right: 1.25rem;
-        border: 1px solid rgb(151, 182, 66);
+        /* border: 1px solid rgb(151, 182, 66); */
     }
     
     /* dropdown sections  */
@@ -382,13 +726,16 @@ border: 1px solid white;
     
     background-size: 100%;
     height: 34.1875rem;
-    padding: unset;
+    
 
 }
-.section2 .sec2text{
-    display: g
-    
-    
+.sec2text{
+    padding: unset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .section2 .line1 {
     display: flex;
@@ -408,11 +755,12 @@ border: 1px solid white;
     letter-spacing: 0.28963rem;
 }
 .section2 .line2 {
+    display: flex;
+    align-items: center;
     width: 17.75rem;
     height: 17.1875rem;
     flex-shrink: 0;
     color: #FFF;
-
     text-align: justify;
     font-family: "Open Sans";
     font-size: 0.9375rem;
@@ -420,9 +768,276 @@ border: 1px solid white;
     font-weight: 400;
     line-height: 138.682%;
 }
+.section2 .line3m {
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.28963rem;
+    border-left: 2px solid white; /* Add left border */
+    border-right: 2px solid white; /* Add right border */
+    padding: 0 19.59px; /* Add padding */
+    text-align: center;
+    margin: 0; /* Reset margin to ensure no extra space */
+    width: auto; /* Ensure width adjusts to content */
+}
+.section2 .line3 {
+    display: none;
+}
 
 
+.about{
+    background-size: 100%;
+    height: 141.125rem;
+    flex-shrink: 0;
+}
+.firstdiv .line1{
+    display: flex;
+width: 16.75rem;
+height: 4.1875rem;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #000;
 
+text-align: center;
+font-family: Montserrat;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 700;
+line-height: 127.9%; /* 1.11913rem */
+letter-spacing: 0.38094rem;
+}
+.firstdiv .line2{
+    display: none;
+}
+.firstdiv .line2m{
+    display: flex;
+    width: 16.5625rem;
+    height: 14.0625rem;
+    flex-shrink: 0;
+    color: #000;
+
+    text-align: justify;
+    font-family: "Open Sans";
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0 auto;
+    margin-top: 2.38rem;
+}
+.firstdiv .line3{
+    display: flex;
+    width: 9rem;
+    height: 2.5rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.08125rem;
+}
+.firstdiv .line4{
+    width: 10.625rem
+}
+.seconddiv{
+    display: flex;
+    flex-direction: column;
+    width: 18.125rem;
+    height: 30.5625rem;
+    flex-shrink: 0;
+}
+.design .line1{
+    background-position: unset;
+    display: flex;
+    width: 5.625rem;
+    height: 4.625rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.19694rem;
+    padding-left: 2rem;
+}
+.design .line2{
+    display: flex;
+    /* border: 1px solid; */
+    width: 15.5625rem;
+    height: 4.8125rem;
+    flex-shrink: 0;
+    color: #000;
+
+    text-align: justify;
+    font-family: "Open Sans";
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0 auto;
+    margin-left: 2rem;
+    margin-bottom: 1.44rem;
+}
+.development .line1{
+    display: flex;
+    width: 10.75rem;
+    height: 4.625rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.19694rem;
+    padding-left: 2rem;
+}
+.development .line2{
+    width: 15.25rem;
+    height: 4.875rem;
+    flex-shrink: 0;
+    color: #000;
+
+    text-align: justify;
+    font-family: "Open Sans";
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.maintenance {
+    margin: 0;
+    margin-top: 2.44rem;
+}
+.maintenance .line1{
+    display: flex;
+    width: 12.5rem;
+    height: 3.875rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.19694rem;
+    /* border: 1px solid; */
+    padding: 2rem;
+}
+.maintenance .line2{
+    width: 15.375rem;
+height: 4rem;
+flex-shrink: 0;
+color: #000;
+
+text-align: justify;
+font-family: "Open Sans";
+font-size: 0.8125rem;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+
+.thirddiv .line2{
+    display: flex;
+width: 10.75rem;
+height: 4.1875rem;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #000;
+
+text-align: center;
+font-family: Montserrat;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 700;
+line-height: 127.9%; /* 1.11913rem */
+letter-spacing: 0.38094rem;
+}
+
+.fourthdiv{
+    display: none;
+}
+.fourthdivm{
+    display: flex;
+    flex-direction: column;
+    width: 15.625rem;
+    height: 46.12106rem;
+    flex-shrink: 0;
+    border: 1px solid ;
+    margin: 0 auto;
+    margin-top: 2.94rem;
+}
+.fourthdivm .images-containerm{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}
+.fourthdivm .headline{
+    display: flex;
+    width: 15.625rem;
+    height: 4.625rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+
+    font-family: Montserrat;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.34756rem;
+}
+.images{
+    text-align: center;
+    margin: 1.7rem 0 1rem 0;
+}
+.images p{
+    display: flex;
+width: 10.375rem;
+height: 3.25rem;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #000;
+
+text-align: center;
+font-family: Montserrat;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.20306rem;
+padding-top: 1rem;
+}
 
 
 
