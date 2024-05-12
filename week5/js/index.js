@@ -28,12 +28,12 @@ if (inputpin != cardInfo.pin) {
 
 
 
-// Step 2: Prompt for options
+//  Prompt for options
 let userInput = prompt("Please choose an option:\n1. Withdraw\n2. Transfer\n3. Balance Check\n4. Transaction Report");
 
-// Step 3: Handling user input
+// Handling user input
 if (userInput === "1" || userInput === "4") {
-    alert("This Service is Unavailable.");
+    alert("This Service is Unavailable, Please try again later.");
 } 
 else if (userInput === "2") {
     transferMoney();
@@ -46,12 +46,12 @@ else if (userInput === "2") {
 
 
 //Function to validate pin
-function validatePin(inputpin) {
+// function validatePin(inputpin) {
   
-    alert("Incorrect pin. Please try again.");
-    return null; //indicate that the pin is incorrect
+//     alert("Incorrect pin. Please try again.");
+//     return null; //indicate that the pin is incorrect
   
- }
+//  }
 
 // Function to transfer money
 function transferMoney() {
@@ -87,8 +87,8 @@ let recipientAccount = reciever.find(account => account.number === accountNumber
       return;
   }
 
-  if (confirm(`Are you sure you want to send ₦${amount.toFixed(2)} from ${cardInfo.number} to ${recipientAccount.name}?`)) { // update: Confrim you want to send ₦amount from cardinfo.number to 
-      // Deduct amount from sender's balance
+  if (confirm(`Are you sure you want to send ₦${amount.toFixed(2)} from ${cardInfo.number} to \n${recipientAccount.name} \n${recipientAccount.number}?`)) { // update: Confrim you want to send ₦amount from cardinfo.number to 
+      // Deduct amount from cardinfo balance
       cardInfo.accountBalance -= amount;
       console.log("New available balance:", cardInfo.accountBalance);
       alert(`Transfer successful. Your new balance is ₦${cardInfo.accountBalance.toFixed(2)}.`);
@@ -103,4 +103,3 @@ function checkBalance() {
     alert(`Your available balance is ₦${cardInfo.accountBalance.toFixed(2)}.`);
 }
 
-// Sample account data
