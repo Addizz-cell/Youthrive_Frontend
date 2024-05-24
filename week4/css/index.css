@@ -289,7 +289,7 @@ line-height: normal;
     /* display: flex; */
     /* align-items: center; */
     margin: 0 auto;
-    border: 1px solid ;
+    /* border: 1px solid ; */
 }
 .design {
     width: 45%;
@@ -990,7 +990,7 @@ letter-spacing: 0.38094rem;
     width: 15.625rem;
     height: 46.12106rem;
     flex-shrink: 0;
-    border: 1px solid ;
+    /* border: 1px solid ; */
     margin: 0 auto;
     margin-top: 2.94rem;
 }
