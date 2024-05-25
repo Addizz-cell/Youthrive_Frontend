@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    width: 1440px;
+    max-width: 120rem;
     height: 1102px;
     top: 115px;
     left: 156px;
