@@ -34,3 +34,5 @@ let sideBar = document.querySelector(".sidebar")
 navControl.onClick = function() {
   sideBar.classList.toggle("active");
 }
+
+

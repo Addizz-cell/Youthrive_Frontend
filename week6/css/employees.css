@@ -1,0 +1,33 @@
+.header {
+    width: 100%;
+    height: 89px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    display: flex;
+    align-items: center;
+    padding-left: 23px;
+    justify-content: space-between;
+    border: 0.1px solid #b6acac54 ;
+}
+.headsearch{
+    width: Hug (425px)px;
+    height: Hug (46px)px;
+    gap: 14px;
+    opacity: 0px;
+    padding-left:15px ;
+    /* border: 0.1px solid #b6acac54 ; */
+}
+.headsearch #search{
+    padding-right: 12px;
+    text-align: center;
+}
+
+.headsearch #headertext{
+font-family: Avenir;
+font-size: 14px;
+font-weight: 400;
+line-height: 19.12px;
+text-align: center;
+
+}

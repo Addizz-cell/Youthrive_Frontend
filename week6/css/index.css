@@ -12,7 +12,7 @@ body{
     gap: 0px;
     border-radius: 12px 0px 0px 0px;
     opacity: 0px;
-    border: 1px solid;
+    /* border: 1px solid; */
 
 }
 .employee{
@@ -45,7 +45,7 @@ nav{
     gap: 0px;
     border-radius: 12px 12px 0px 0px;
     opacity: 0px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     align-items: center;
         

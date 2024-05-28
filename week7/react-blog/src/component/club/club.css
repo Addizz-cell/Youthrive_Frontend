@@ -1,0 +1,12 @@
+ /* p {    /*but this can conflict with other component linked to the App.jsx, because it will apply to all p tag in all the component 
+    background-color: black;
+    color: white;
+    font-size: 1.7rem;
+
+} */
+
+#club p{  /* you can use id to terget the component you want to style to avoid conflict */
+    background-color: black;
+    color: white;
+    font-size: 1.7rem;
+}
